@@ -1,0 +1,73 @@
+body,html,header,h3,h2,div,h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1;
+}
+
+@font-face {
+    font-family: "Paladins";
+    src: url(\policepaladin\paladins.ttf), format(truetype);
+}
+  @font-face {
+font-family: "Paladin";
+src: url("/fonts/paladins.txt") format("txt"),
+ url("/fonts/paladins.ttf") format("truetype")
+}
+
+.police {
+    font-family: Paladins;
+}
+
+.imgfond {
+    filter: saturate(50%) grayscale(50%) brightness(50%);
+    min-height: 100%;
+    min-width: 100%;
+    z-index: 3;
+}
+
+.messentete {
+    font-family: Paladins;
+    color: rgb(194, 194, 194);
+    font-size: 100px;
+    position: absolute;
+    top: 200px;
+    z-index: auto;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.pagenav:hover > .a {
+    color: #f76d01;
+    background-color: black;
+    padding-left: 5px;
+    padding-right: 7px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.pagenav {
+    float: left;
+    padding-left: 5px;
+    padding-right: 7px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.a {
+    font-family: Paladins;
+    font-size: 20px;
+    text-decoration: none;
+    letter-spacing: -3px;
+    color: black;
+}
+
+#pagenav {
+    clear: both;
+    white-space: nowrap;
+}
