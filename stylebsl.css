@@ -12,12 +12,12 @@ body,html,header,h3,h2,div,h1 {
 
 @font-face {
     font-family: "Paladins";
-    src: url(\policepaladin\paladins.ttf), format(truetype);
+    src: url(paladins.ttf), format(truetype);
 }
   @font-face {
 font-family: "Paladin";
-src: url("/fonts/paladins.txt") format("txt"),
- url("/fonts/paladins.ttf") format("truetype")
+src: url("paladins.txt") format("txt"),
+ url("paladins.ttf") format("truetype")
 }
 
 .police {
