@@ -12,8 +12,8 @@ body,html,header,h3,h2,div,h1 {
 
 @font-face {
   font-family: "Paladins";
-  src: url('paladins.ttf') format('truetype'),
-      url('paladins.woff') format('woff');
+  src: url('https://github.com/kilto56/sitebsl/blob/main/paladins.ttf') format('truetype'),
+      url('https://github.com/kilto56/sitebsl/blob/main/paladins.woff') format('woff');
 }
 
 .police {
