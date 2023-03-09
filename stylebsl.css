@@ -11,13 +11,10 @@ body,html,header,h3,h2,div,h1 {
 }
 
 @font-face {
-    font-family: "Paladins";
-    src: url("https://github.com/kilto56/sitebsl/blob/main/paladins.ttf");
-}
-  @font-face {
-font-family: "Paladin";
-src: url("paladins.txt") format("txt"),
- url("paladins.ttf") format("truetype")
+  font-family: "Paladins";
+  src: local("paladins"), local("paladins"),
+    url("paladins.ttf");
+  font-weight: bold;
 }
 
 .police {
