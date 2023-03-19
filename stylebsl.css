@@ -21,7 +21,7 @@ body,html,header,h3,h2,div,h1 {
 @font-face {
   font-family: "Paladins";
   src: local("paladins-webfont"), local("paladins-webfont.woff2"),
-    url("https://github.com/kilto56/sitebsl/blob/57e7a35f77f4d580bcc91e104a3d925fc70d2f82/paladins-webfont.woff2");
+    url("paladins-webfont.woff2");
 }
 
 .police {
