@@ -18,6 +18,12 @@ body,html,header,h3,h2,div,h1 {
     font-style: normal;
 }
 
+@font-face {
+  font-family: "Paladins";
+  src: local("paladins-webfont"), local("paladins-webfont.woff2"),
+    url("");
+}
+
 .police {
     font-family: Paladins;
 }
